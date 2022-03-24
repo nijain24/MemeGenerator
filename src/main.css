@@ -1,0 +1,66 @@
+.img-wrapper {
+  overflow: hidden;
+  cursor: pointer;
+  padding: 2px;
+  margin: 48px;
+  border: 1.5px solid;
+  width: 280px;
+  height: 200px;
+}
+
+button {
+  background-color: #343a40 !important;
+  color:white !important;
+}
+
+img.hover-zoom:hover {
+  transform: scale(1.5);
+}
+
+.main {
+  text-align: center;
+  background-color: rgb(250 215 215 / 17%);
+  height: 100vh;
+}
+.input-wrap {
+  display: flex;
+  justify-content: center;
+}
+.create {
+  width: 160px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-img {
+  width: 400px;
+  height: 500px;
+}
+
+.header{
+  color: white;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #343a40;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #343a40;
+}
